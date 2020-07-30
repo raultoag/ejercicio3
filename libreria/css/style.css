@@ -3,27 +3,37 @@
     flex-direction: row;            
     flex-wrap: nowrap;              
     background-color: #c9dddd;
+    
   }
-.navbar{
-    padding: 0%;
+.divHeaderContent{
+    width: 100%;
+    justify-content: space-between;
 }
-.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
-    padding: 0%;
-    margin: 0%;
+.divImg, .divTitle, .divUser{
+    /* width: 33%; */
 }
-.row{
-    margin: 0%;
+.divImg{
+    left: 0;
+    position: absolute;
+}
+.divImg img{
+    margin-left: 5%;
+    max-width:25%!important;
+    height:auto; 
+}
+.divTitle{
+    width: 10%;
+    margin:0 auto;
+}
+.divUser{
+    left: 40vw;
+    float: right;
 }
 .bodyContent{
     margin-left: 15%;
     margin-right: 15%;
 }
-/* .divUser{
-    float: right;
-} */
-.divTitle{
-    margin:0 auto;
-}
+
 .btnLog, .colorFooter{
     background-color: #c9dddd;
 }
@@ -48,3 +58,22 @@
 .textSize{
     font-size: 0.7rem;
 }
+.divFooter{
+    width: 100%;
+    justify-content: space-between;
+    clear: both;
+    display: flex;
+}
+.divFooter1{
+    float: left;
+    
+}
+
+.divUs{
+    width: 10%;
+    margin:0 auto;
+}
+.divContacta{
+  
+    /* float: right;*/
+} 
