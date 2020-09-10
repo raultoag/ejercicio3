@@ -1,3 +1,7 @@
+body{
+    margin:0;
+    background-color: #e1e1da;
+}
 #container {
     display: flex;                 
     flex-direction: row;            
@@ -26,12 +30,15 @@
     margin:0 auto;
 }
 .divUser{
-    left: 40vw;
+    right: 15px;
+    bottom: 35px;
+    position: relative;
     float: right;
 }
 .bodyContent{
     margin-left: 15%;
     margin-right: 15%;
+    background-color: #fafbfd;
 }
 
 .btnLog, .colorFooter{
@@ -47,10 +54,18 @@
 	cursor:pointer;
 }
 .divFilter{
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
     float: right;
 }
 .divLibros{
     clear: both;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 25px;
+    
 }
 .divInfoLib{
     justify-content: justify;
@@ -66,14 +81,43 @@
 }
 .divFooter1{
     float: left;
+    margin-left: 15px;
     
+}
+.divContacta{
+    margin-right: 15px;
 }
 
 .divUs{
     width: 10%;
     margin:0 auto;
 }
-.divContacta{
+.divSelect{
   
-    /* float: right;*/
+    float: left;
 } 
+.selectCat{
+    border: 1px solid #393939;
+    border-radius: 5px 5px 5px 5px;
+    color: #393939;
+    font-size: 12px;
+    padding: 5px;
+}
+.divInputSearch{
+  
+    float: right;
+} 
+.inputSearch{
+    border: 1px solid #393939;
+    border-radius: 5px 5px 5px 5px;
+    color: #393939;
+    font-size: 12px;
+    padding: 5px;
+}
+img{
+    display:block;
+    margin:auto;
+    }
+.libro1,.libro2,.libro3,.libro4{
+    text-align: justify;
+}
